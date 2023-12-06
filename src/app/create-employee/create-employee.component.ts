@@ -12,5 +12,7 @@ export class CreateEmployeeComponent {
   constructor(){}
   ngOnInit():void{}
 
-  onSubmit(){}
+  onSubmit(){
+    console.log(this.employee);
+  }
 }
