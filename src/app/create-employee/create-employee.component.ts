@@ -28,10 +28,11 @@ export class CreateEmployeeComponent {
 
   gotoEmployeeList()
   {
-    this.router
+    this.router.navigate(["/employees"]);
   }
 
   onSubmit(){
     console.log(this.employee);
+    this.saveEmployee();
   }
 }
